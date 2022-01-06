@@ -94,7 +94,8 @@ h2.title {
     line-height: normal;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
     display: block;
     margin: 0 auto;
     width: 313px;
@@ -117,6 +118,10 @@ h2.title {
     letter-spacing: normal;
     line-height: normal;
     margin-top: 73px;
+}
+
+.gift .gift_btn {
+    margin-top: 52px;
 }
 
 .more .more_text {
@@ -298,6 +303,79 @@ h2.title {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.gift {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+    height: 113px;
+}
+
+.gift .gift_text {
+    margin-top: 42px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+}
+
+.first_web {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.first_web .first_web_icon {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+}
+
+.first_web .first_web_title {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 77px;
+}
+
+.first_web .first_web_title_big {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first_web .first_web_text {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 20px;
