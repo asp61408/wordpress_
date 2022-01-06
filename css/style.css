@@ -381,3 +381,26 @@ h2.title {
     line-height: 20px;
     text-align: center;
 }
+
+.footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.footer .footer_text {
+    margin: 0 auto;
+    margin-top: 69px;
+    width: 377px;
+    height: 36px;
+    color: white;
+    /* color: #888888; */
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+}
