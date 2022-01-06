@@ -12,7 +12,7 @@
 
 .promo {
     min-height: 800px;
-    background: url(../img/bg/main_bg_2-layers.png) center center/cover no-repeat;
+    background: url(../img/bg/main_bg.png) center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
 
@@ -220,7 +220,6 @@ h2.title {
 }
 
 .optimization .optimization_title {
-    /* position: absolute; */
     margin-left: 389px;
     color: #299cbd;
     font-family: "Roboto - Black";
@@ -229,12 +228,10 @@ h2.title {
     font-style: normal;
     letter-spacing: normal;
     line-height: 12px;
-    /* text-align: left; */
     text-transform: uppercase;
 }
 
 .optimization .optimization_text {
-    /* position: absolute; */
     margin-left: 389px;
     color: #4a4a4a;
     font-family: Roboto;
@@ -243,7 +240,6 @@ h2.title {
     font-style: normal;
     letter-spacing: normal;
     line-height: 27px;
-    /* text-align: justifyLeft; */
     margin-top: 25px;
 }
 
@@ -266,16 +262,13 @@ h2.title {
 
 .finish {
     min-height: 447px;
-    /* background-color: rosybrown; */
-    background: url(../img/bg/2-layers.png) center center/cover no-repeat;
+    background: url(../img/bg/second_bg.png) center center/cover no-repeat;
     padding: 86px 0 79px 0;
 }
 
 .finish .finish_wrapper {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: nowrap; */
-    /* margin: 0 auto; */
     margin-top: 41px;
 }
 
@@ -297,12 +290,10 @@ h2.title {
 .finish .finish_wrapper .finish_item .finish_icon {
     width: 67px;
     height: 48px;
-    /* margin: 0 auto; */
 }
 
 .finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 26px;
-    /* width: 204px; */
     color: #efefef;
     font-family: Roboto;
     font-size: 17px;
