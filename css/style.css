@@ -10,7 +10,7 @@
 }
 
 .promo {
-    height: 900px;
+    height: 800px;
     background: url(../img/bg/2-layers.png) center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
@@ -51,6 +51,7 @@ h2.title {
     letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
+    line-height: 24px;
 }
 
 .simple .title_big {
@@ -62,6 +63,7 @@ h2.title {
     letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
+    line-height: 24px;
     margin-top: 21px;
 }
 
