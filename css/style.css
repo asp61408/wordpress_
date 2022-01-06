@@ -175,18 +175,30 @@ h2.title {
     margin-top: 17px;
 }
 
-.waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    margin: 0 auto;
-    vertical-align: top;
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
     padding: 0 15px 0 15px;
+    text-align: center;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
-    width: 342px;
+    width: 100%;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
-    width: 342px;
+    width: 100%;
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
 }
