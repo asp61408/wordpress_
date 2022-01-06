@@ -171,6 +171,10 @@ h2.title {
     margin-top: 18px;
 }
 
+.finish .finish_divider {
+    margin-top: 23px;
+}
+
 .waiting .waiting_subheader {
     color: #4a4a4a;
     font-family: Roboto;
@@ -262,37 +266,27 @@ h2.title {
 
 .finish {
     min-height: 447px;
-    background-color: rosybrown;
-    background-image: url(../img/bg/2-layers.png) center center/cover no-repeat;
+    /* background-color: rosybrown; */
+    background: url(../img/bg/2-layers.png) center center/cover no-repeat;
     padding: 86px 0 79px 0;
-}
-
-.finish .finish_divider {
-    margin-top: 23px;
 }
 
 .finish .finish_wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     /* margin: 0 auto; */
     margin-top: 41px;
 }
 
-.finish .finish_wrapper .finish_item .finish_descr {
-    margin-top: 26px;
+.finish .finish_wrapper .finish_item {
     width: 204px;
-    color: #efefef;
-    font-family: Roboto;
-    font-size: 17px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 20px;
-    /* text-align: center; */
 }
 
 .finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 115px;
     height: 115px;
     background-color: #b4e2ff;
@@ -303,5 +297,18 @@ h2.title {
 .finish .finish_wrapper .finish_item .finish_icon {
     width: 67px;
     height: 48px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 26px;
+    /* width: 204px; */
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
 }
